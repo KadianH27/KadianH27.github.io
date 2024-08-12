@@ -3,12 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Herb Wellness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgba(255, 255, 224, 0.8);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Shrikhand', cursive; /* Apply Shrikhand font to body */
+        }
+        .navbar {
+            background-color: #a6dbd4;
+            font-family: sans-serif; /* Use a generic sans-serif font for navbar */
+        }
+        .navbar-brand img {
+            height: 50px; /* Adjust the height as needed */
+            width: auto;  /* Maintain aspect ratio */
+        }
+        .welcome-section {
+            background: url('https://i.ibb.co/9rvwtNs/image-1.png') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            flex: 1; /* Allows it to grow and fill the space */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .welcome-text {
+            background-color: rgba(255, 255, 224, 0.8);
+            display: inline-block;
+            padding: 20px;
+            color: #9037AA; /* Set text color for welcome section */
+        }
+        .welcome-text h1 {
+            color: #3F403F; /* Set heading color */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .about-section {
+            background-color: rgba(255, 255, 224, 0.8);
+            color: #9037AA; /* Set text color for about section */
+            padding: 20px;
+            margin-top: auto; /* Pushes the About Me section to the bottom */
+            text-align: center;
+        }
+        .about-section h2 {
+            color: #3F403F; /* Set heading color */
+        }
+    </style>
 </head>
 <body>
-    <button id="please"> Change Background Color</button>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://i.ibb.co/9nFKPJd/Favicon-32x32.png" alt="Herb Wellness Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Small-Buisness-Idea.html">Small Business Idea</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <script src="dom.js"></script>
+    <div class="welcome-section">
+        <div class="welcome-text">
+            <h1>Welcome to Herb Wellness</h1>
+            <p>A small business for all-natural herbs and wellness products. Discover a wide selection of fresh herbs, teas, and holistic remedies designed to support your health and well-being.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Kadian Hall, and I am a rising high school senior with a passion for blending the wonders of nature with the advancements of technology. I aspire to major in Computer Engineering, focusing on integrating technology into the fields of Biology and Chemistry. From a young age, I've been fascinated by the natural world and its potential, which has led to my ultimate goal of innovating in agricultural technology, and improving access to natural health remedies. My interests include reading, gardening, and trying new food recipes.</p>
+        </div>
+    </div>
 </body>
 </html>
