@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herb Wellness Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://i.ibb.co/9rvwtNs/image-1.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #3F403F;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Shrikhand', cursive;
+        }
+        .navbar {
+            background-color: #a6dbd4;
+            font-family: sans-serif;
+        }
+        .navbar-brand img {
+            height: 50px;
+            width: auto;
+        }
+        .shop-section {
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+        .shop-section h1 {
+            color: #9037AA;
+            margin-bottom: 20px;
+        }
+        .herb-item {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 15px;
+            text-align: center;
+            color: #3F403F;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .herb-image {
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .herb-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://i.ibb.co/9nFKPJd/Favicon-32x32.png" alt="Herb Wellness Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Small-Buisness-Idea.html">Small Business Idea</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div class="shop-section">
+        <h1>Shop Our Herbs</h1>
+        <div class="herb-container">
+            <div class="herb-item">
+                <img src="https://i.ibb.co/vZBTNQx/06cca2362b5fddc7f9babca5438b7174.jpg" alt="Mint" class="herb-image">
+                <h2>Mint</h2>
+                <p>Price: $5.00</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/Qd3Pjqn/12dc30073735de2ebd7a88094c912a57.jpg" alt="Basil" class="herb-image">
+                <h2>Basil</h2>
+                <p>Price: $4.50</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/xHc8Dmh/c587ecbea93a7ce431ee39bb4afe2401.jpg" alt="Thyme" class="herb-image">
+                <h2>Thyme</h2>
+                <p>Price: $6.00</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/VDrRBvc/037f9d144ba063805faa0038cb0caee0.jpg" alt="Oregano" class="herb-image">
+                <h2>Oregano</h2>
+                <p>Price: $5.50</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/LpSHmMx/0cb8b0db63d2dabd8b02d9ff9a37244e.jpg" alt="Lavender" class="herb-image">
+                <h2>Lavender</h2>
+                <p>Price: $7.00</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/Rgk3Lj6/7d923d1da0c17b0dcb4780eb85f0cc91.jpg" alt="Chamomile" class="herb-image">
+                <h2>Chamomile</h2>
+                <p>Price: $6.50</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/85dGmh9/2a655ba8ba93be1df58f65966395cdd2-1.jpg" alt="Echinacea" class="herb-image">
+                <h2>Echinacea</h2>
+                <p>Price: $8.00</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/BNrzVN6/images.jpg" alt="Ginger" class="herb-image">
+                <h2>Ginger</h2>
+                <p>Price: $5.75</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/k9ndR2C/2c414431b489991fb088759756a83843.jpg" alt="Rosemary" class="herb-image">
+                <h2>Rosemary</h2>
+                <p>Price: $6.25</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/m6BDWqW/0838675462df842247dd2ff9c336e9ea.jpg" alt="Sage" class="herb-image">
+                <h2>Sage</h2>
+                <p>Price: $5.25</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/THmvVqY/2d9550e59dd50cb19f111ba0ace09985.jpg" alt="Lemon Balm" class="herb-image">
+                <h2>Lemon Balm</h2>
+                <p>Price: $6.75</p>
+            </div>
+            <div class="herb-item">
+                <img src="https://i.ibb.co/ChBktYD/4e3959a3bd1ed065862258bf6d893a80.jpg" alt="Turmeric" class="herb-image">
+                <h2>Turmeric</h2>
+                <p>Price: $7.50</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
